@@ -1,0 +1,29 @@
+Get the temperature of MT > AT+QTEMP;AT+QTEMP
+Current band in use > AT+QNWINFO;AT+QNWINFO
+Carrier Agregation Info > AT+QCAINFO;AT+QCAINFO
+SIM Preferred Message Storage  >  AT+CPMS="SM","SM","SM";AT+CPMS="SM","SM","SM"
+Save SMS Settings  >  AT+CSAS;AT+CSAS
+Reboot the modem  >  AT+CFUN=1,1;AT+CFUN=1,1
+Reset the modem  >  AT+CFUN=1;AT+CFUN=1
+QMI/PPP/Default > AT+QCFG="usbnet",0;AT+QCFG="usbnet",0
+ECM > AT+QCFG="usbnet",1;AT+QCFG="usbnet",1
+MBIM > AT+QCFG="usbnet",2;AT+QCFG="usbnet",2
+4G-LTE only > AT+QCFG="nwscanmode",3,1;AT+QCFG="nwscanmode",3,1
+WCDMA only > AT+QCFG="nwscanmode",2,1;AT+QCFG="nwscanmode",2,1
+GSM only > AT+QCFG="nwscanmode",1,1;AT+QCFG="nwscanmode",1,1
+Scan all modes > AT+QCFG="nwscanmode",0,1;AT+QCFG="nwscanmode",0,11
+SIM卡信号 质量/强度 ➜ AT+CSQ;AT+CSQ
+SIM卡状态 AT+CPIN;AT+CPIN?
+模块sn序列号 ➜ AT+CGSN;AT+CGSN=0
+模块IMEI序列号 ➜ AT+CGSN;AT+CGSN=1
+模块IMEISV序列号 ➜ AT+CGSN;AT+CGSN=2
+模块SVN ➜ AT+CGSN;AT+CGSN=3
+固件版本 ➜ AT+CGMR;AT+CGMR
+重启模块 ➜ AT+NRB;AT+NRB
+重启模块 ➜ AT+NRB;AT+NRB
+查询网络激活状态 AT+CGATT;AT+CGATT?
+查询网络当前连接状态 AT+CSCON;AT+CSCON?
+自动上报网络注册状态 AT+CEREG;AT+CEREG=1
+模块RF状态 AT+CFUN;AT+CFUN?
+打开模块RF AT+CFUN;AT+CFUN=1
+关闭模块RF(不可上网、打电话) AT+CFUN;AT+CFUN=0

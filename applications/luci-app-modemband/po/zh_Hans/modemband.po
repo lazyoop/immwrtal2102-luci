@@ -20,7 +20,7 @@ msgid "Currently set 5G NSA bands"
 msgstr "目前设置的5G NSA频段"
 
 msgid "Preferred LTE/5G Bands"
-msgstr "首选LTE/5G"
+msgstr "LTE/5G模块上网"
 
 msgid "Supported LTE bands"
 msgstr "支持的LTE频段"
